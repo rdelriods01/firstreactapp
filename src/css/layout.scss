@@ -1,0 +1,50 @@
+@import "../index.scss";
+
+.navbar {
+  .element {
+    flex-grow: 1;
+    margin-left: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2em;
+  }
+}
+
+.signedinlinks {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 0;
+    overflow: hidden;
+  }
+
+  li {
+    display: table-cell;
+  }
+
+  li a {
+    color: white;
+    padding: 0 4px;
+    text-decoration: none;
+  }
+}
+
+.signedoutlinks {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    display: table-cell;
+  }
+
+  li a {
+    color: white;
+    padding: 0 4px;
+    text-decoration: none;
+  }
+}

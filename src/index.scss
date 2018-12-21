@@ -1,0 +1,24 @@
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url(/img/mario-bg.png) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  background-color: #95e8f3;
+  min-height: 100%;
+}
+
+* {
+  font-family: Product Sans;
+}
+
+$primary: #f44336;
+$secondary: #cddc39;
+
+:export {
+  primary: $primary;
+  secondary: $secondary;
+}
